@@ -7,7 +7,7 @@ Inspired by Python/Jinja2's [j2cli](https://github.com/kolypto/j2cli).
 
 ## Install
 
-    go get github.com/tsg/gotpl
+    go install github.com/six-ddc/gotpl@latest
 
 ## Usage
 
@@ -24,3 +24,7 @@ and a `user.yml` YAML file like this one:
 You can compile the template like this:
 
     gotpl template < user.yml
+
+or save template in-place
+
+    gotpl -i template < user.yml
